@@ -1,0 +1,6 @@
+<ul *ngFor="let hero of heroes">
+  <li (click) = onClick(hero)> {{hero.id | multiply:10}} : {{hero.name}} </li>
+  </ul>
+<p appCustom>{{hero.id}} : {{hero.name}}</p>
+
+
